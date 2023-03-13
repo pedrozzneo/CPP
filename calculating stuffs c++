@@ -1,0 +1,18 @@
+#include <iostream>
+#include <math.h>
+#include <string>
+using namespace std;
+
+int main () {
+	float radius, circumference, area, volume;
+	cout << "write a value for radius in cm: ";
+	cin >> radius;
+	circumference = 2*3.14*radius;
+	cout << "the circumference measures: " << circumference << "cm" << "\n";
+	area = 3.14*pow(radius,2);
+	cout << "the area measures: " << area << "cm2" << '\n';
+	volume = 4*3.14*pow(radius,3)/3;
+	cout << "the volume measures: " << volume << "cm3";
+	
+	return 0;
+}
