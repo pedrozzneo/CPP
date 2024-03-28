@@ -10,7 +10,7 @@ int main () {
 	circumference = 2*3.14*radius;
 	cout << "the circumference measures: " << circumference << "cm" << endl;
 	area = 3.14*pow(radius,2);
-	cout << "the area measures: " << area << "cm2" << '\n';
+	cout << "the area measures: " << area << "cm2" << endl;
 	volume = 4*3.14*pow(radius,3)/3;
 	cout << "the volume measures: " << volume << "cm3";
 	
