@@ -10,7 +10,7 @@ int main () {
 	cin >> precogasolina;
 	cout << "how many kms displaced? ";
 	cin >> distanciakm;
-	cout << "what car are you driving?                   ";
+	cout << "what car are you driving?  heyyy                 ";
 	cin >> car;
 	
 	if (car == "hb20") {
