@@ -5,9 +5,9 @@ int main() {
    
      //beggining
    int inteiro1, inteiro2, resto, soma;
-   cout << "escreva um valor para o primeiro numero ";
+   cout << "escreva um valor para o primeiro numero: ";
    cin >> inteiro1;
-   cout << "escreva um valor para o segundo numero ";
+   cout << "escreva um valor para o segundo numero: ";
    cin >> inteiro2;
    resto = inteiro1 % 2;
    

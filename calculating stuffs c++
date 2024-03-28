@@ -8,7 +8,7 @@ int main () {
 	cout << "write a value for radius in cm: ";
 	cin >> radius;
 	circumference = 2*3.14*radius;
-	cout << "the circumference measures: " << circumference << "cm" << "\n";
+	cout << "the circumference measures: " << circumference << "cm" << endl;
 	area = 3.14*pow(radius,2);
 	cout << "the area measures: " << area << "cm2" << '\n';
 	volume = 4*3.14*pow(radius,3)/3;
