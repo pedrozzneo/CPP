@@ -6,7 +6,7 @@ using namespace std;
 //Calculations related to circles!!
 int main () {
 	float radius, circumference, area, volume;
-	cout << "write a value for radius in cm!:  " ;
+	cout << "write a value for radius in cm: ";
 	cin >> radius;
 	circumference = 2*3.14*radius;
 	cout << "the circumference measures: " << circumference << "cm" << endl;
